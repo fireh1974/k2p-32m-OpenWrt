@@ -22,7 +22,7 @@ echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.de
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 ####### Replace with JerryKuKu’s Argon
 
-echo '添加alist
+echo '添加alist'
 git clone https://github.com/sbwml/luci-app-alist package/alist
 echo '=========alist OK!========='
 
