@@ -21,7 +21,9 @@ echo 'src-git helloworld https://github.com/fw876/helloworld.git' >> 'feeds.conf
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 ####### Replace with JerryKuKu’s Argon
-
+echo '添加alist
+git clone https://github.com/sbwml/luci-app-alist package/alist
+echo '=========alist OK!========='
 ###### K2P-32M修改编译文件 ######
 sed -i 's/15744k/32128k/g' target/linux/ramips/image/mt7621.mk
 sed -i 's/"Phicomm K2P";/"Phicomm K2P (32M)";/g' target/linux/ramips/dts/mt7621_phicomm_k2p.dts
