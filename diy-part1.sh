@@ -23,7 +23,7 @@ echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 ####### Replace with JerryKuKu’s Argon
 
 echo '添加alist'
-git clone https://github.com/sbwml/luci-app-alist package/alist
+#git clone https://github.com/sbwml/luci-app-alist package/alist
 echo '=========alist OK!========='
 
 ###### K2P-32M修改编译文件 ######
