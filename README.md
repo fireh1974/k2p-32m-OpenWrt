@@ -6,7 +6,7 @@
 
 
 ## luci-app-advanced=y
-## #luci-app-alist=y
+## #luci-app-alist=n
 ## luci-app-argonne-config=y
 ## luci-app-syncdial=y
 ## luci-app-zerotier=y
